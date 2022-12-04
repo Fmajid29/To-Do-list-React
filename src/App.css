@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(33, 33, 46);
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.heading {
+  margin: 3% auto;
+  text-align: center;
+  color: white;
+}
+
+.enter {
+  display: flex;
+  height: 10vh;
+  width: 40%;
+  margin: 3% auto;
+}
+
+.enter > input {
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+  font-size: xx-large;
+  text-indent: 5%;
+}
+
+.enter > button {
+  width: 25%;
+  border: none;
+  margin-left: auto;
+  border-radius: 20px;
+  font-size: xx-large;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(82, 116, 228);
+}
+
+.todos {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.todo {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  height: 10vh;
+  border-radius: 12px;
+}
+
+.todo > h3 {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-indent: 5%;
+  width: 80%;
+  color: white;
+}
+
+.delete {
+  width: 20%;
+  height: 90%;
+  border-radius: 10%;
+  font-size: xx-large;
+  border: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.edit {
+  width: 20%;
+  height: 90%;
+  border-radius: 10%;
+  font-size: xx-large;
+  border: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: blue;
+}
